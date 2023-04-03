@@ -1,0 +1,74 @@
+.customer-reviews-container {
+    border: 1px solid black; /* Add border */
+    padding: 20px;
+    max-width: 1300px; /* Reduce max width */
+    margin: 0 auto;
+  }
+  
+  .customer-review h3 {
+    margin: 0 0 20px;
+  }
+  
+  .customer-review .rating {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .customer-review .comment {
+    margin: 0;
+    text-align: justify; /* Justify text */
+  }
+  
+  .slick-active {
+    display: block;
+  }
+  
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slick-arrow:before {
+    font-size: 20px;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  /* Styles for screens 768px and smaller (i.e. phones) */
+@media only screen and (max-width: 768px) {
+  .customer-reviews-container {
+    max-width: 200%; /* Set max width to 200% */
+    padding: 5px; /* Reduce padding */
+  }
+  
+  .customer-review .comment {
+    text-align: left; /* Set text-align to left */
+  }
+}
+
+/* Styles for screens between 768px and 2024px (i.e. tablets) */
+@media only screen and (min-width: 768px) and (max-width: 2024px) {
+  .customer-reviews-container {
+    max-width: 90%; /* Reduce max width */
+    padding: 8px; /* Adjust padding */
+  }
+}
+
+/* Styles for screens larger than 2024px (i.e. laptops and desktops) */
+@media only screen and (min-width: 2024px) {
+  .customer-reviews-container {
+    max-width: 1200px; /* Increase max width */
+    padding: 20px; /* Adjust padding */
+  }
+}
+
+  

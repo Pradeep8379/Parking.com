@@ -1,0 +1,73 @@
+
+/* Signup.css */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group-1,
+  .form-group-2,
+  .form-group-3,
+  .form-group-4,
+  .form-group-5,
+  .form-group-6,
+  .form-group-7 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="number"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  .button-class-2 {
+    margin-top: 2rem;
+  }
+  
+  .button-class-3 {
+    margin-top: 1rem;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  

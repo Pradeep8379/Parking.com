@@ -1,0 +1,91 @@
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.carousel-caption h2 {
+  font-size: 2.1rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.carousel-caption h5 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  opacity: 0.5;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100%;
+  width: 100%;
+  outline: black;
+  background: transparent no-repeat center;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.5 1.5l-3 3 3 3'%3e%3c/path%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.5 1.5l3 3-3 3'%3e%3c/path%3e%3c/svg%3e");
+}
+
+@media (max-width: 992px) {
+  .carousel-item img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+  }
+  
+  .carousel-caption {
+    margin-left: 0;
+    margin-top: 0;
+    position: static;
+    text-align: center;
+  }
+  
+  .carousel-caption h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item img {
+    height: 200px;
+  }
+  
+  .carousel-caption h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1rem;
+  }
+}

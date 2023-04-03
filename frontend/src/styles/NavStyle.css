@@ -1,0 +1,76 @@
+/* Navbar styles for desktop */
+.navbar {
+  padding: 0 20px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(202, 230, 165);
+  background-image: linear-gradient(135deg, rgb(79, 126, 72), rgb(202, 230, 165) 75%);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+  color: rgb(79, 126, 72);
+}
+
+/* Navbar styles for tablets */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .navbar-brand {
+    margin-bottom: 10px;
+  }
+}
+
+/* Navbar styles for phones */
+@media only screen and (max-width: 480px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    padding: 8px 16px;
+  }
+}

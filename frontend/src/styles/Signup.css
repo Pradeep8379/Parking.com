@@ -1,0 +1,56 @@
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+  .signup-container {
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 0;
+  }
+  
+  .signup-form input {
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .signup-form button,
+  .verify-otp-button {
+    padding: 8px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+}
+
+/* For tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .signup-container {
+    max-width: 800px;
+    padding: 15px;
+  }
+  
+  .signup-form input {
+    margin-bottom: 15px;
+  }
+  
+  .signup-form button,
+  .verify-otp-button {
+    margin-top: 15px;
+  }
+}
+
+/* For laptop/desktop devices */
+@media only screen and (min-width: 1025px) {
+  .signup-container {
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .signup-form input {
+    margin-bottom: 20px;
+  }
+  
+  .signup-form button,
+  .verify-otp-button {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}

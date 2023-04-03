@@ -1,0 +1,52 @@
+.footer {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.contact-info {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  margin-right: 1rem;
+}
+
+.social-icon:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-media {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-icon {
+    margin-right: 0.5rem;
+  }
+}
