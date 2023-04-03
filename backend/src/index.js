@@ -7,7 +7,7 @@ const Route = require('./routes/route.js');
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://PradeepPatil:vp0T2toXsM1QqQAo@cluster0.h3sgz2m.mongodb.net/Pradeep8379-db',
+mongoose.connect('',
     { useNewUrlParser: true }
 ).then(() => {
     console.log("MongoDb is connected");
